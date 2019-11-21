@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do Dapp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <div id="container">
+        <div class="item first">
+            <h2>Sign in or Sign up</h2>
+            <form id="sign">
+                <input id="alias" placeholder="username">
+                <input id="pass" type="password" placeholder="passphrase">
+                <input id="in" type="submit" value="sign in">
+                <input id="up" type="button" value="sign up">
+            </form>
+        </div>
+        <div class="item">
+            <h2>Create to do's</h2>
+            <form id="said">
+                <input id="say">
+                <input id="speak" type="submit" value="speak">
+            </form>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gun/examples/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gun/sea.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gun/lib/webrtc.js"></script>
+    <script src="./dapp.js"></script>
+</body>
+
+
+
+
+</html>

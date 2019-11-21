@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    margin: auto;
+    max-width: 800px;
+}
+
+#container {
+    display: flex;
+    align-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.item {
+    margin-top: 50px;
+}
+
+.first {
+    margin-top: 0px;
+}
+
+#sign {
+    border: thin solid purple;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#said {
+    border-bottom: thin solid teal;
+
+    padding: 10px;
+}
